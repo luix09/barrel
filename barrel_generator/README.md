@@ -125,5 +125,4 @@ repository. Issues opened as questions will be automatically closed.
 
 ## License
 
-Flutter Flavorizr is available under the MIT license. See the LICENSE
-file for more info.
+Barrel is available under the MIT license. See the LICENSE file for more info.
