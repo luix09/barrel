@@ -1,0 +1,9 @@
+builders:
+  barrel_generator:
+    target: ":barrel_generator"
+    import: "package:barrel_generator/barrel_generator.dart"
+    builder_factories: ["barrel"]
+    build_extensions: { ".dart": [".barrel.dart"] }
+    auto_apply: dependents
+    build_to: source
+    applies_builders: ["source_gen|combining_builder"]

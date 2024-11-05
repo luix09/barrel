@@ -1,0 +1,11 @@
+name: barrel_annotation
+description: Generate barrel files for Dart using build_runner.
+repository: https://github.com/AngeloAvv/barrel
+issue_tracker: https://github.com/AngeloAvv/barrel/issues
+version: 1.0.0
+
+environment:
+  sdk: ^3.0.0
+
+dev_dependencies:
+  lints: ^5.0.0

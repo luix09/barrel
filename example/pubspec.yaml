@@ -1,0 +1,19 @@
+name: example
+description: A sample command-line application.
+version: 1.0.0
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.5.4
+
+# Add regular dependencies here.
+dependencies:
+  barrel_annotation:
+    path: ../barrel_annotation
+
+dev_dependencies:
+  barrel_generator:
+    path: ../barrel_generator
+  build_runner: ^2.4.13
+  lints: ^4.0.0
+  test: ^1.24.0
