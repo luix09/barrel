@@ -1,3 +1,7 @@
+## 1.0.2
+
+- Fixed a bug where the generator doesn't work when a project sits in the root of a drive.
+
 ## 1.0.1
 
 - Downgraded `analyzer` to `6.5.0` to fix compatibility issues with `collection`.

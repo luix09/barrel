@@ -87,16 +87,13 @@ class BarrelGenerator extends Generator {
   String get _rootFolder => Directory.current.path;
 
   String _getSrcFolder(String fullName) {
-    final directoryPieces = Directory.current.path.split(pathSeparator);
-    final projectDirectory = directoryPieces
-        .sublist(0, directoryPieces.length - 1)
-        .join(pathSeparator);
+    final projectDirectory = Directory.current.path;
 
     final filePieces = fullName.split(pathSeparator);
     final fileDirectory =
-    filePieces.sublist(0, filePieces.length - 1).join(pathSeparator);
+    filePieces.sublist(2, filePieces.length - 1).join(pathSeparator);
 
-    return '$projectDirectory$fileDirectory';
+    return '$projectDirectory$pathSeparator$fileDirectory';
   }
 
   BarrelContext _getContext(ConstantReader annotation, String rootFolder) {

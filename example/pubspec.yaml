@@ -8,12 +8,10 @@ environment:
 
 # Add regular dependencies here.
 dependencies:
-  barrel_annotation:
-    path: ../barrel_annotation
+  barrel_annotation: ^1.0.0
 
 dev_dependencies:
-  barrel_generator:
-    path: ../barrel_generator
+  barrel_generator: ^1.0.2
   build_runner: ^2.4.13
   lints: ^4.0.0
   test: ^1.24.0
