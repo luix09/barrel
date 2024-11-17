@@ -1,3 +1,7 @@
+## 1.0.3
+
+- Fixed a bug where the generator was linking non-existent barrel files in non-empty folders.
+
 ## 1.0.2
 
 - Fixed a bug where the generator doesn't work when a project sits in the root of a drive.

@@ -50,10 +50,10 @@ packages:
     dependency: "direct dev"
     description:
       name: barrel_generator
-      sha256: "9907f86eff8b6e0f08c364f53826a7884b6823f7015adf6c64f30cd7953bcf74"
+      sha256: "1a3082d13fe2215e483618182353fd486eccb2c2a354191115c256504f8de037"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.2"
+    version: "1.0.3"
   boolean_selector:
     dependency: transitive
     description:

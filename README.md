@@ -20,7 +20,7 @@ dependencies:
 
 dev_dependencies:
   build_runner: ^2.4.13
-  barrel_generator: ^1.0.2
+  barrel_generator: ^1.0.3
 ```
 
 Decorate one of your files placed in the source root of your project with the `BarrelConfig` annotation:

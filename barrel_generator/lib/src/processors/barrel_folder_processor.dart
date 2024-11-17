@@ -29,6 +29,8 @@ import 'package:barrel_generator/src/contexts/barrel_context.dart';
 import 'package:barrel_generator/src/contexts/barrel_folder_context.dart';
 import 'package:barrel_generator/src/processors/processor.dart';
 import 'package:barrel_generator/src/utils/path.dart';
+import 'package:glob/glob.dart';
+import 'package:glob/list_local_fs.dart';
 
 /// A processor that collects all the files and folders in a given directory
 class BarrelFolderProcessor extends Processor<BarrelFolderContext> {
@@ -50,7 +52,7 @@ class BarrelFolderProcessor extends Processor<BarrelFolderContext> {
         !file.path.endsWith('.barrel.dart') &&
         !context.excluded(file.path);
     folderConditions(folder) =>
-        folder is Directory && folder.listSync().isNotEmpty;
+        folder is Directory && Glob('${folder.path}/**.dart').listSync().isNotEmpty;
     barrelConditions(file) => !context.excluded(file.path);
 
     final folders =
