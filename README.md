@@ -3,7 +3,6 @@
 Generate barrel files for each folder for Dart and Flutter projects. A barrel file is a file that exports all the files in a directory. This is useful when you have a lot of files in a directory and you want to import them all in one go.
 
 [![Pub](https://img.shields.io/pub/v/barrel_generator.svg)](https://pub.dev/packages/barrel_generator)
-![Dart CI](https://github.com/AngeloAvv/barrel/workflows/Dart%20CI/badge.svg)
 [![Star on GitHub](https://img.shields.io/github/stars/AngeloAvv/barrel.svg?style=flat&logo=github&colorB=deeppink&label=stars)](https://github.com/AngeloAvv/barrel)
 [![License: MIT](https://img.shields.io/badge/license-MIT-purple.svg)](https://opensource.org/licenses/MIT)
 [![](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&logo=GitHub&color=%23fe8e86)](https://github.com/sponsors/AngeloAvv)
@@ -20,7 +19,7 @@ dependencies:
 
 dev_dependencies:
   build_runner: ^2.4.13
-  barrel_generator: ^1.0.3
+  barrel_generator: ^1.0.4
 ```
 
 Decorate one of your files placed in the source root of your project with the `BarrelConfig` annotation:

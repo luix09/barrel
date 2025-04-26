@@ -1,3 +1,7 @@
+## 1.0.4
+
+- Bumped `source_gen` to `2.0.0`
+
 ## 1.0.3
 
 - Fixed a bug where the generator was linking non-existent barrel files in non-empty folders.
