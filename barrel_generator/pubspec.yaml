@@ -9,7 +9,7 @@ environment:
 
 # Add regular dependencies here.
 dependencies:
-  analyzer: ^6.5.0
+  analyzer: ^7.0.0
   build: ^2.4.1
   source_gen: ^2.0.0
   barrel_annotation: ^1.0.0
